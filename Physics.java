@@ -8,7 +8,7 @@ public class Physics
         
       }
     }
-    private void calcGravity&Electromagnetism()
+    private void calcGravityAndElectromagnetism()
     {
       
     }
