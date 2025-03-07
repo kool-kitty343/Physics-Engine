@@ -5,11 +5,19 @@ public class Physics
     {
       while(!shutdown)
       {
-        
+
       }
     }
-    private void calcGravityAndElectromagnetism()
+    private void calcDistanceAndAngle()
+    {
+
+    }
+    private void calcGravity()
     {
       
+    }
+    private void calcElectromagnetism()
+    {
+
     }
   }
