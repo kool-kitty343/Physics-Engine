@@ -34,9 +34,10 @@ public class Physics
     }
     private void calcDistanceAndAngle()
     {
-      double DeltaX = Other.getX() - ;
-      double DeltaY = ;
-      double DeltaZ = ;
+      double DeltaX = Other.getX() - Current.getX();
+      double DeltaY = Other.getY() - Current.getY();
+      double DeltaZ = Other.getZ() - Current.getZ();
+      XYangle = Math.tan()
     }
     private void calcGravity()
     {
