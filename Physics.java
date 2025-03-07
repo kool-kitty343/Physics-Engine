@@ -37,7 +37,8 @@ public class Physics
       double DeltaX = Other.getX() - Current.getX();
       double DeltaY = Other.getY() - Current.getY();
       double DeltaZ = Other.getZ() - Current.getZ();
-      XYangle = Math.tan()
+      XYangle = Math.tan(DeltaY/DeltaX);
+
     }
     private void calcGravity()
     {
